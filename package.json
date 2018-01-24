@@ -1,7 +1,7 @@
 {
-  "name": "ucp-distribution-app-smoke-tests",
+  "name": "wdio-allure-screenshot",
   "version": "0.0.1",
-  "description": "Smoke tests for the distribution app",
+  "description": "Test code for wdio-allure-reporter screenshot feature",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
