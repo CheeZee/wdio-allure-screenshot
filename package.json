@@ -1,0 +1,34 @@
+{
+  "name": "ucp-distribution-app-smoke-tests",
+  "version": "0.0.1",
+  "description": "Smoke tests for the distribution app",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Lifan Qi",
+    "email": "qi.lifan@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CheeZee/wdio-allure-screenshot"
+  },
+  "dependencies": {
+    "wdio": "^1.0.3",
+    "wdio-cucumber-framework": "^1.0.2",
+    "webdriverio": "^4.9.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.0.1",
+    "chromedriver": "^2.35.0",
+    "wdio-allure-reporter": "^0.2.0",
+    "wdio-chromedriver-service": "^0.1.1",
+    "wdio-junit-reporter": "^0.3.1",
+    "wdio-spec-reporter": "^0.1.2"
+  }
+}
